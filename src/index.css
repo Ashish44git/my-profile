@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+}
+ body{
+    height: 100%;
+    width: 100%;
+    background: rgb( 30 ,30 ,30);
+    color: white;
+    overflow:auto;
+
+}
+button:hover{
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    display: none;
+}

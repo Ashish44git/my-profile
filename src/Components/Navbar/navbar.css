@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0rem 2rem;
+  font-family: poppins , sans-serif;
+  width: 100%;
+  height: 5rem;
+  position: sticky;
+  top: 0;
+  background-color: rgb(30, 30, 30);
+  z-index: 3;
+  align-items: center;
+}
+.resume-btn {
+  background: linear-gradient(270deg, #02aabd 10%, #004a53 100%);
+  color: white;
+  padding: 5px;
+  border-radius: 120px;
+  border: none;
+  padding: 1.01rem;
+  transition: 0.5s;
+}
+.heading {
+  padding: 1.2rem;
+}
+.logo {
+  text-decoration: none;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  transition: 0.5s;
+  background-color: rgb(39, 38, 38);
+}
+
+.menu-items {
+  margin: 20px;
+  font-size: 1.3rem;
+}
+
+.menu-items:hover {
+  cursor: pointer;
+  color: #0dadbe;
+  border-bottom: 3px solid #0dadbe;
+}
+.resume-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(270deg, #09afc1 10%, #0dadbe 100%);
+  cursor: pointer;
+}
+.logo:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.burger {
+
+  width: 6vh;
+  height: 4vh;
+  display: none;
+  cursor: pointer;
+}
+
+.mob-menu {
+  position: absolute;
+  right: 20px;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  min-width: 80%;
+}
+.mob-menu-items {
+  padding: 1rem;
+  background-color: black;
+  color: wheat;
+  border: 4px solid rgb(46, 44, 44);
+  text-decoration: none;
+}
+.mob-menu-items:hover {
+  border: 4px solid yellow;
+}
+
+@media screen and (max-width: 720px) {
+  .menu-items {
+    display: none;
+  }
+  .resume-btn {
+    display: none;
+  }
+  .burger {
+    width: 6vh;
+    height: 4vh;
+    display: flex;
+
+  }
+}
+@media screen and (max-width: 450px) {
+  .burger {
+    width: 5vh;
+    height: 3vh;
+    display: flex;
+  }
+}

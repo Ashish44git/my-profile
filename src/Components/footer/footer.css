@@ -1,0 +1,27 @@
+footer {
+  background-color: #242323;
+  font-family: poppins ,sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 1.7rem;
+  /* height: calc(27vh - 6rem); */
+  color: rgb(117, 117, 117);
+}
+@media screen and (max-width:630px) {
+    footer{
+        font-size: 0.9rem;
+        /* height: calc(24vh - 6rem); */
+  padding: 1.2rem;
+
+    }
+    
+}
+@media screen and (max-width:480px) {
+    footer{
+  padding: 1rem;
+  font-size: 0.6rem;
+        /* height: calc(22vh - 6rem); */
+    }
+    
+}
