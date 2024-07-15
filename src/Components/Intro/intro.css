@@ -78,7 +78,10 @@
   text-align: justify;
   width: 60vw;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) { 
+  .introContent{
+  justify-content: unset;
+}
   .top {
     height: 15vh;
     width: 15vh;
@@ -109,6 +112,9 @@
   }
 }
 @media screen and (max-width: 590px) {
+  .introContent{
+    justify-content: unset;
+  }
   .top {
     height: 12vh;
     width: 12vh;
@@ -128,6 +134,9 @@
   }
 }
 @media screen and (max-width: 338px) {
+  .introContent{
+    justify-content: unset;
+  }
   .top {
     height: 11vh;
     width: 11vh; /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
