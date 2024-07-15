@@ -19,7 +19,7 @@
   width: 50vw;
   margin: auto;
 }
- 
+
 .contact-input {
   background-color: rgb(0, 0, 0);
   border: none;
@@ -34,9 +34,8 @@
   background-color: rgb(0, 0, 0);
   border: none;
   color: white;
-
 }
-  
+
 .contact-input2 {
   padding: 1rem;
   box-shadow: 0px 0px 4px 1px #020202;
@@ -51,44 +50,42 @@
 }
 
 .submit {
-    font-family: "poppins", sans-serif;
-    width: 8rem;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 4px 1px #ffffff;
-    background-color: white;
-    margin-top: 1rem;
-    padding: 0.8rem .6rem;
-    border: none;
-    transition: 0.5s;
+  font-family: "poppins", sans-serif;
+  width: 8rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 4px 1px #ffffff;
+  background-color: white;
+  margin-top: 1rem;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  transition: 0.5s;
 }
-.submit:hover{
-    transform: scale(1.05);
+.submit:hover {
+  transform: scale(1.05);
 }
-.logo-container{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
-.logo-icon{
-    width: 5vh;
-    background-color: white;
-    height: 5vh;
-    margin: 0 1rem;
-    border-radius: 50%;
-    overflow: hidden;
-    transition: 0.5s;
+.logo-icon {
+  width: 5vh;
+  background-color: white;
+  height: 5vh;
+  margin: 0 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s;
 }
-.logo-icon:hover{
+.logo-icon:hover {
   transform: scale(2);
 }
-@media screen and (max-width:1065px) {
-  .more-header{
+@media screen and (max-width: 1065px) {
+  .more-header {
     font-size: 1.5rem;
   }
-  
 }
-@media screen and (max-width:595px) {
-  
+@media screen and (max-width: 595px) {
   .more-header {
     text-align: center;
     font-size: 1.5rem;
@@ -96,18 +93,18 @@
     padding: 2rem 0rem;
   }
   .submit {
-  padding:0.5rem 0.3rem ;
+    padding: 0.5rem 0.3rem;
     width: 6rem;
   }
-  
 }
-@media screen and (max-width:496px) {
-.more-header {
-  text-align: center;
-  font-size: 01rem;
-  font-weight: 600;
-  padding: 2rem 0rem;
+@media screen and (max-width: 496px) {
+  .more-header {
+    text-align: center;
+    font-size: 01rem;
+    font-weight: 600;
+    padding: 2rem 0rem;
+  }
+  .form-contact {
+    width: 70vw;
+  }
 }
-.form-contact{
-  width: 70vw;
-}}

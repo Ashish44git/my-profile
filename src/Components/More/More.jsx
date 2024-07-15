@@ -55,7 +55,8 @@ const More = () => {
             name="message"
             placeholder="Your message (minimum 50 characters)"
             className="contact-input2"
-            required minLength={50}
+            required
+            minLength={50}
           />
           <button type="submit" value="Send" className="submit">
             {" "}
