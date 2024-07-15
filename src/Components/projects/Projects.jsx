@@ -32,7 +32,7 @@ const Projects = () => {
             </a>
           </div>
           <div className="projects-card" id="port">
-            <a href="http://localhost:5173/">
+            <a href="https://ashish44git.github.io/my-portfolio//">
               <img src={port} alt="" />
             </a>
           </div>

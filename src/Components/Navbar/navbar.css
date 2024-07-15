@@ -21,9 +21,7 @@
   padding: 1.01rem;
   transition: 0.5s;
 }
-.heading {
-  padding: 1.2rem;
-}
+
 .logo {
   text-decoration: none;
   width: 5vh;
@@ -93,9 +91,17 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .burger {
-    width: 5vh;
+  .logo {
+    text-decoration: none;
+    width: 3vh;
     height: 3vh;
+    border-radius: 50%;
+    transition: 0.5s;
+    background-color: rgb(39, 38, 38);
+  }
+  .burger {
+    width: 4vh;
+    height: 2.6vh;
     display: flex;
   }
 }

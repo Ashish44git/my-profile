@@ -128,7 +128,7 @@ const Navbar = () => {
           More
         </Link>
         <a
-          href="https://drive.google.com/file/d/1i5NVLLUStQ9vOxV9x6NXFFAulFaZ2m5c/view"
+          href="https://drive.google.com/file/d/1m4EVq2X_14Rju4wCi2yI1lPXcFl1x4zw/view?usp=drivesdk"
           className="mob-menu-items"
         >
           {" "}
