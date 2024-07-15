@@ -14,8 +14,8 @@
     padding:2rem 0 2rem 0;
 }
 .top{
-    height: 30vh;
-    width: 30vh;
+    height: 24.6vh;
+    width: 23vh;
     border-radius: 50%;
     border: 2px solid gray;
 }
@@ -95,8 +95,31 @@ font-size:1.2rem;
        width: 7rem;
     }
 }
-@media screen and (max-width:338px) {
+@media screen and (max-width:590px) {
+    .top{
+        height: 12vh;
+        width: 12vh;
+    }
+    .bottom{
+        font-size: 0.8rem;
+        width: 90vw;
+    }
+    .name{
+ font-size: 1.3rem;
+    }
+    .role{
+font-size:1rem;
+    }
+    .intro button{
+        width: 5rem;
+    }
     
+}
+@media screen and (max-width:338px) {
+    .top{
+        height: 11vh;
+        width: 11vh;/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    }
     .bottom{
         font-size: 0.6rem;
         width: 90vw;

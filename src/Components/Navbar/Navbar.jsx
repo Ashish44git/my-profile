@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link activeClass="active" to="projects" spy={true} smooth={100} offset={-100} className="menu-items">Projects</Link>
         <Link activeClass="active" to="more" spy={true} smooth={100} offset={-70} className="menu-items">More</Link>
       </div>
-    <a href="https://drive.google.com/file/d/1i5NVLLUStQ9vOxV9x6NXFFAulFaZ2m5c/view">  <button className="resume-btn">Resume</button></a>
+    <a href="https://drive.google.com/file/d/1m4EVq2X_14Rju4wCi2yI1lPXcFl1x4zw/view?usp=drivesdk">  <button className="resume-btn">Resume</button></a>
 
         
       <img src={menu} className="burger" onClick={()=>setShowMenu(!showMenu)}/>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <Link activeClass="active" to="About" spy={true}  smooth={100} offset={-100}  className="mob-menu-items"   onClick={()=>{
           setShowMenu(false)
         }}>About</Link>
-        <Link activeClass="active" to="projects" spy={true} smooth={100} offset={-90} className="mob-menu-items"   onClick={()=>{
+        <Link activeClass="active" to="projects" spy={true} smooth={100} offset={-95} className="mob-menu-items"   onClick={()=>{
           setShowMenu(false)
         }}>Projects</Link>
        

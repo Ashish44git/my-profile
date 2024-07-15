@@ -17,7 +17,7 @@ const Intro = () => {
             </span>
             <br />
            
-              <button className="hire"> <a href="https://drive.google.com/file/d/1i5NVLLUStQ9vOxV9x6NXFFAulFaZ2m5c/view">Hire Me </a></button>
+              <button className="hire"> <a href="https://drive.google.com/file/d/1m4EVq2X_14Rju4wCi2yI1lPXcFl1x4zw/view?usp=drivesdk">Hire Me </a></button>
            
           </div>
         </div>
