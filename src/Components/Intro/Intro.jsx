@@ -17,7 +17,7 @@ const Intro = () => {
               creating visually appealing and user-friendly websites.
             </span>
             <br />
-            <a href="https://drive.google.com/drive/u/0/folders/18EhUYNpqEbokLA2XgtxnPKPEo-gNeUXQ">
+            <a href="https://drive.google.com/file/d/1o9s43nz4n69l4rHq71P_2R96s1kSE9eK/view?usp=drivesdk">
               {" "}
               <button className="hire"> Hire Me</button>{" "}
             </a>

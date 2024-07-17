@@ -62,7 +62,7 @@ const Navbar = () => {
           More
         </Link>
       </div>
-      <a href="https://drive.google.com/drive/u/0/folders/18EhUYNpqEbokLA2XgtxnPKPEo-gNeUXQ">
+      <a href="https://drive.google.com/file/d/1o9s43nz4n69l4rHq71P_2R96s1kSE9eK/view?usp=drivesdk">
         {" "}
         <button className="resume-btn">Resume</button>
       </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
           More
         </Link>
         <a
-          href="https://drive.google.com/drive/u/0/folders/18EhUYNpqEbokLA2XgtxnPKPEo-gNeUXQ"
+          href="https://drive.google.com/file/d/1o9s43nz4n69l4rHq71P_2R96s1kSE9eK/view?usp=drivesdk"
           className="mob-menu-items"
         >
           {" "}
