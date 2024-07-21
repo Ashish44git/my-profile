@@ -1,7 +1,6 @@
 .intro {
   overflow: hidden;
   font-family: "poppins", sans-serif;
-  height: calc(100vh - 5rem);
 }
 .introContent {
   display: flex;
@@ -111,9 +110,7 @@
   }
 }
 @media screen and (max-width: 590px) {
-  .intro{
-    height: calc(100vh);
-  }
+
   .introContent{
     justify-content: unset;
   }
