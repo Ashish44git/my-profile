@@ -18,14 +18,14 @@
   padding: 5px;
   border-radius: 120px;
   border: none;
-  padding: 1.01rem;
+  padding: 0.6rem;
   transition: 0.5s;
 }
 
 .logo {
   text-decoration: none;
-  width: 5vh;
-  height: 5vh;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   transition: 0.5s;
   background-color: rgb(39, 38, 38);
@@ -33,7 +33,7 @@
 
 .menu-items {
   margin: 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .menu-items:hover {
