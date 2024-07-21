@@ -109,6 +109,9 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .projects{
+    height: 100vh;
+  }
   .projects-header {
     font-size: 0.7rem;
   }
