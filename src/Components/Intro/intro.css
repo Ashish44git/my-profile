@@ -11,19 +11,19 @@
   padding: 2rem 0 2rem 0;
 }
 .top {
-  height: 24.6vh;
-  width: 23vh;
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
   border: 2px solid gray;
 }
 .bottom {
   text-align: center;
   font-family: "poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   width: 80vw;
 }
 .name {
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   background: linear-gradient(
     230deg,
@@ -36,7 +36,7 @@
   -webkit-text-fill-color: transparent;
 }
 .role {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   background: linear-gradient(
     230deg,
@@ -54,13 +54,13 @@
     rgb(0, 255, 60) 10%,
     rgb(19, 172, 233) 100%
   );
-  padding: 0.5rem;
+  padding: 0.2rem;
   font-family: "poppins", sans-serif;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 2rem;
   margin: 1rem;
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 6rem;
+  font-size: 0.5rem;
   transition: 0.5s;
 }
 .intro button:hover {
@@ -81,8 +81,8 @@
     justify-content: unset;
   }
   .top {
-    height: 15vh;
-    width: 15vh;
+    height: 6rem;
+    width: 6rem;
     border: 1.5px solid gray;
   }
   .bottom {
@@ -114,8 +114,8 @@
     justify-content: unset;
   }
    .top {
-    height: 12vh;
-    width: 12vh;
+    height: 5rem;
+    width: 5rem;
   }
   .bottom {
     font-size: 0.8rem;
@@ -136,18 +136,18 @@
     justify-content: unset;
   }
   .top {
-    height: 11vh;
-    width: 11vh; /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+    height: 4rem;
+    width: 4rem; /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
   }
   .bottom {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     width: 90vw;
   }
   .name {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .role {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   .intro button {
     width: 5rem;

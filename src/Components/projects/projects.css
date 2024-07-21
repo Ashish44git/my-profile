@@ -3,25 +3,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   gap: 1rem;
 }
 .projects-header {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 1rem;
 }
 
 .content {
   text-align: justify;
-  font-size: 1rem;
-  padding: 0.7rem 8rem;
+  font-size: 0.8rem;
+  padding: 0.7rem 2rem;
 }
 .projects-cards {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 1rem 4rem 2rem 4rem;
+
   justify-content: center;
 }
 
@@ -37,8 +39,8 @@
 .projects-card img {
   border-radius: 0.5rem;
   box-shadow: 0px 1px 10px 0px white;
-  height: 35vh;
-  width: 35vh;
+  height: 8rem;
+  width: 8rem;
   transition: 0.5s;
 }
 .projects-card img:hover {
@@ -60,8 +62,8 @@
   .projects-card img {
     border-radius: 0.5rem;
     box-shadow: 0px 1px 10px 0px white;
-    height: 25vh;
-    width: 25vh;
+    height: 10rem;
+    width: 10rem;
     transition: 0.5s;
   }
   .projects-card img:hover {
@@ -85,8 +87,8 @@
   .projects-card img {
     border-radius: 0.5rem;
     box-shadow: 0px 1px 10px 0px white;
-    height: 18vh;
-    width: 18vh;
+    height: 8rem;
+    width: 8rem;
     transition: 0.5s;
   }
   .projects-card {
@@ -120,8 +122,8 @@
   .projects-card img {
     border-radius: 0.3rem;
     box-shadow: 0px 1px 10px 0px white;
-    height: 11vh;
-    width: 11vh;
+    height: 7rem;
+    width: 7rem;
     transition: 0.5s;
   }
   .projects-card {
