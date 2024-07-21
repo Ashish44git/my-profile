@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
           <div className="projects-card">
             {" "}
-            <a href="https://ashish44git.github.io/color-changer/">
+            <a href="https://ashish44git.github.io/Color-Changer/">
               <img src={color} alt="" />
             </a>
           </div> 
