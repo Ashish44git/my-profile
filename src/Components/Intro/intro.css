@@ -133,7 +133,9 @@
   }
 }
 @media screen and (max-width: 338px) {
-
+  .intro{
+    height: calc(60vh);
+  }
    .introContent{
     justify-content: unset;
   }
