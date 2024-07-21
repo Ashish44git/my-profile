@@ -3,8 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 8rem;
-  margin-top: 0.5rem;
+  margin-top: 4rem;
   gap: 1rem;
 }
 .projects-header {
