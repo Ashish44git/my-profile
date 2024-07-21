@@ -1,11 +1,12 @@
 .About {
   font-family: poppins, sans-serif;
-  height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .about-header {
   font-size: 2.1rem;

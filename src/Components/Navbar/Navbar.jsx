@@ -56,7 +56,7 @@ const Navbar = () => {
           to="more"
           spy={true}
           smooth={100}
-          offset={-70}
+          offset={-100}
           className="menu-items"
         >
           More
@@ -105,7 +105,7 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={100}
-          offset={-95}
+          offset={-100}
           className="mob-menu-items"
           onClick={() => {
             setShowMenu(false);
@@ -119,7 +119,7 @@ const Navbar = () => {
           to="more"
           spy={true}
           smooth={100}
-          offset={-76}
+          offset={-100}
           className="mob-menu-items"
           onClick={() => {
             setShowMenu(false);

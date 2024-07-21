@@ -1,6 +1,5 @@
 .projects {
   font-family: "Poppins", sans-serif;
-  height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
   align-items: center;

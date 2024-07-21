@@ -1,5 +1,4 @@
 .more {
-  height: calc(100vh - 5rem);
   overflow: hidden;
   font-family: "poppins", sans-serif;
 }

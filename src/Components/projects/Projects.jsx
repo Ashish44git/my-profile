@@ -3,6 +3,9 @@ import "./projects.css";
 import curr from "../../assets/curr.png";
 import stone from "../../assets/stone.png";
 import port from "../../assets/port.png";
+import pass from "../../assets/pass.png";
+import color from "../../assets/color.png";
+
 
 const Projects = () => {
   return (
@@ -21,6 +24,12 @@ const Projects = () => {
 
         <div className="projects-cards">
           <div className="projects-card">
+            {" "}
+            <a href="https://ashish44git.github.io/password-generator/">
+              <img src={pass} alt="" />
+            </a>
+          </div>  
+          <div className="projects-card">
             <a href="https://ashish44git.github.io/Rock-Paper-Scissor-Games/">
               <img src={stone} alt="" />
             </a>
@@ -31,6 +40,13 @@ const Projects = () => {
               <img src={curr} alt="" />
             </a>
           </div>
+          <div className="projects-card">
+            {" "}
+            <a href="https://ashish44git.github.io/color-changer/">
+              <img src={color} alt="" />
+            </a>
+          </div> 
+         
           <div className="projects-card" id="port">
             <a href="https://ashish44git.github.io/my-profile/">
               <img src={port} alt="" />
