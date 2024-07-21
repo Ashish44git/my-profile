@@ -16,7 +16,7 @@
 .content {
   text-align: justify;
   font-size: 0.8rem;
-  padding: 0.7rem 2rem;
+  padding: 0 7rem;
 }
 .projects-cards {
   display: flex;
