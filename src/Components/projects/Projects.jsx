@@ -18,8 +18,7 @@ const Projects = () => {
         <div className="content">
           These are the projects made by me during the learning of MERN stack
           development. I have taken help from youtube and W3Schools whenever i
-          have faced difficulties.There are 2 javascript projects and 1 react
-          project.
+          have faced difficulties.These projects are made using concepts like HTML, CSS, Javascript, React.
         </div>
 
         <div className="projects-cards">
